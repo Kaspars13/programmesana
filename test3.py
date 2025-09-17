@@ -1,0 +1,1 @@
+print("šis ir trešais tests!")
