@@ -1,0 +1,1 @@
+print("Šis ir tests numur viens!")
