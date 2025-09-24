@@ -52,7 +52,7 @@ poga2 = tk.Button(logs, text='Vasara',
                   )
 
 poga3 = tk.Button(logs, text='Funkcija lambda',
-                  comman=lambda:tk.Label(logs, text='Īsāks koda pieraksts').pack()
+                  command=lambda:tk.Label(logs, text='Īsāks koda pieraksts').pack()
                   )
 
 exit_button = tk.Button(
@@ -61,9 +61,9 @@ exit_button = tk.Button(
     command=lambda: logs.quit()
 )
 
-exit_button.pack()
-poga3.pack()
-poga2.pack()
-poga1.pack()
 teksts_1.pack()
+poga1.pack()
+poga2.pack()
+poga3.pack()
+exit_button.pack()
 logs.mainloop()
