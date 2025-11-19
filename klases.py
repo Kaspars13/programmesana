@@ -71,16 +71,16 @@
     
 # persona1 = Persona("Jānis", "Latvija", 2000)
 # print(persona1.vecums())
-from datetime import date
+# from datetime import date
 
-class Persona:
-    def __init__(self, vards, valsts, dz_datums):
-        self.vards = vards
-        self.valsts = valsts
-        self.dz_datums = dz_datums
+# class Persona:
+#     def __init__(self, vards, valsts, dz_datums):
+#         self.vards = vards
+#         self.valsts = valsts
+#         self.dz_datums = dz_datums
 
-    def vecums(self):
-        return date.today().year - self.dz_datums.year
+#     def vecums(self):
+#         return date.today().year - self.dz_datums.year
     
-persona1 = Persona("Jānis", "Latvija", date(2000,1,1))
-print(persona1.vards, persona1.vecums(), 'gadi')
+# persona1 = Persona("Jānis", "Latvija", date(2000,1,1))
+# print(persona1.vards, persona1.vecums(), 'gadi')
