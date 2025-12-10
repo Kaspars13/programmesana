@@ -1,0 +1,4 @@
+sis ir testa fails
+
+--- Pievienots saturs ---
+Ğis teksts tika pievienots beigâs (append).
